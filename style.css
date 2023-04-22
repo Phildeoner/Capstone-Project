@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
+  background-image: url(./capstone-assets/pexels-edit2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .header {
@@ -8,11 +18,33 @@ body {
   align-items: center;
   background-color: #333;
   color: #fff;
-  padding: 0.5rem 1rem;
+  padding: 10px;
 }
 
 .logo {
-  height: 2rem;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid red;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.logo h2 {
+  line-height: 0.5;
+  font-size: 20px;
+}
+
+.logo span {
+  font-size: 12px;
+  color: red;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 
 .nav ul {
@@ -29,17 +61,6 @@ body {
   text-decoration: none;
 }
 
-.main {
-  background-image: url("/capstone-assets/pexels-elvis-2528116.jpg");
-  background-size: cover;
-  padding: 2rem;
-}
-
-.section {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 1rem;
-  margin-bottom: 2rem;
-}
 
 
 @media (max-width: 767px) {
@@ -52,11 +73,6 @@ body {
     font-size: 1.5rem;
     cursor: pointer;
   }
-
-  /* .nav ul {
-    flex-direction: column;
-    align-items: center;
-  } */
 
   .nav li:not(:last-child) {
     margin-bottom: 1rem;
