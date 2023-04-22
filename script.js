@@ -6,9 +6,21 @@ const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 
 function toggleMenu() {
-    var menu = document.getElementById("menu");
-    var menuIcon = document.querySelector(".menu-icon");
-    menu.classList.toggle("active");
-    menuIcon.classList.toggle("active");
+  if (!showMenu) {
+    reaction.classList.add('open');
+    nav.classList.add('open');
+    menuNav.classList.add('open');
+    navItems.forEach((item) => item.classList.add('open'));
+
+    showMenu = true;
+  } else {
+    reaction.classList.remove('open');
+    nav.classList.remove('open');
+    menuNav.classList.remove('open');
+    navItems.forEach((item) => item.classList.remove('open'));
+
+    showMenu = false;
   }
-menuIcon.addEventListener("click", toggleMenu)  
+}
+
+menuBtn.addEventListener("click", toggleMenu)
