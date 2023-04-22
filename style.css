@@ -1,4 +1,109 @@
-* {
-  margin: 0;
-  padding: 0;
+body {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+.logo {
+  height: 2rem;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main {
+  background-image: url("/capstone-assets/pexels-elvis-2528116.jpg");
+  background-size: cover;
+  padding: 2rem;
+}
+
+.section {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+@media (max-width: 767px) {
+  .header-icons {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  /* .nav ul {
+    flex-direction: column;
+    align-items: center;
+  } */
+
+  .nav li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .menu li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .menu-icon.active {
+    transform: rotate(90deg);
+  }
+.nav {
+  visibility: hidden;
+  display: none;
+}
+}
+
+@media (min-width: 768px) {
+  .menu {
+      visibility: hidden;
+      display: none;
+  }
+  .header-icons {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-icon {
+    display: none;
+  }
 }
