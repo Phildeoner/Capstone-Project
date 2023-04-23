@@ -31,5 +31,8 @@ menuBtn.addEventListener('click', toggleMenu);
 
 // resource persons section
 
+let languages =["css","js","python","ruby","html","node js","typescript","c++"];
+
+
 
 
