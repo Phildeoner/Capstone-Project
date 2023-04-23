@@ -32,13 +32,13 @@ menuBtn.addEventListener('click', toggleMenu);
 // resource persons section
 
 let languages =["css","js","python","ruby","html","node js","typescript","c++"];
-let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Winnie","Zizoh","Daniel"];
+let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Akutsang","Zizoh","Daniel"];
 
 let dynamic = document.querySelector(".grid-container");
 for (let i = 0; i < languages.length; i++) {
   let fetch = document.querySelector(".grid-container").innerHTML;
   // very important to note these are backticks not single quotation below;
-  dynamic.innerHTML = `<div class="boxes">
+  dynamic.innerHTML = `<div id="cards${i}" class="boxes">
   <div class="box-content">
   <h2>${languages[i]}</h2>
   <p>
@@ -47,5 +47,7 @@ for (let i = 0; i < languages.length; i++) {
   <a href="#">ReadMore</a>
   </div>
 </div>` + fetch;
+let bgimg = document.getElementById(`cards${i}`);
+bgimg.style.backgroundImage = `url(/capstone-assets/${names[i]}.jpeg)`
 
 }
