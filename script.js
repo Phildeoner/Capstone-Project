@@ -19,8 +19,9 @@ const updateTime = () => {
 if (currentHour > 12) {
   currentHour -= 12
 }
-
-
+hour.textContent = currentHour.toString();
+minute.textContent = currentMinute.toString().padStart(2,"0");
+second.textContent = currentSecond.toString()
 
 
 }
