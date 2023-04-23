@@ -14,7 +14,11 @@ const updateTime = () => {
 
   let currentHour = currentTime.getHours();
   let currentMinute = currentTime.getMinutes();
-  let currentSecond = currentTime.getSeconds()
+  let currentSecond = currentTime.getSeconds();
+
+if (currentHour > 12) {
+  currentHour -= 12
+}
 
 
 
