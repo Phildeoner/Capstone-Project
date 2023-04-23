@@ -28,7 +28,7 @@ header {
   background-color: rgba(165, 42, 42, 0.61);
 }
 
-.socials{
+.socials {
   background-color: rgba(165, 126, 74, 0.575);
   width: 30vw;
   padding: 8px;
@@ -36,19 +36,39 @@ header {
   justify-content: end;
 }
 
-.socials a{
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.socials a {
   text-align: center;
   margin-right: 20px;
   transition: all 0.5s ease-in-out;
 }
 
-.socials a:hover {
-  color: rgb(235, 65, 65);
+.logo a,
+span:hover {
+  color: white;
 }
 
-a {
+.logo a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.sec1_content a {
+  margin-top: 30px;
+  padding: 10px;
+  border: 1px solid white;
+  transition: all 0.5s ease-in-out;
+  background-color: rgba(170, 24, 24, 0.329);
+}
+
+.socials a:hover {
+  color: rgb(235, 65, 65);
 }
 
 .header_content {
@@ -86,23 +106,12 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
-.logo a,span:hover{
-  color: white;
-}
-
 .main {
   background-color: #1d1c1ca6;
   height: 100vh;
 }
 
-.logo a {
-  text-decoration: none;
-  color: black;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-
-.logo a:hover{
+.logo a:hover {
   color: white;
 }
 
@@ -279,7 +288,7 @@ a {
   margin-left: 10px;
 }
 
-.end-info p{
+.end-info p {
   margin-right: 10px;
   background-color: #33333354;
   padding: 5px;
@@ -295,7 +304,7 @@ button {
   font-size: 18px;
   transition: all 0.5s ease-in-out;
   cursor: pointer;
-} 
+}
 
 button:hover {
   background-color: rgba(170, 24, 24, 0.685);
@@ -322,16 +331,8 @@ i {
 
 .sec1_content h2 {
   margin-bottom: 30px;
-  padding: 7px 0px;
+  padding: 7px 0;
   border-bottom: 2px solid rgba(170, 24, 24, 0.685);
-}
-
-.sec1_content a {
-  margin-top: 30px;
-  padding: 10px;
-  border: 1px solid white;
-  transition: all 0.5s ease-in-out;
-  background-color: rgba(170, 24, 24, 0.329);
 }
 
 .sec1_content a:hover {
@@ -350,7 +351,7 @@ i {
   background-color: rgba(72, 75, 78, 0.212);
   margin: 5px;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   padding: 10px;
   max-width: 500px;
@@ -417,7 +418,7 @@ i {
   .nav .menu-nav_link {
     font-size: 1rem;
   }
-  
+
   .main_body {
     margin-left: 100px;
     margin-top: 80px;
@@ -461,7 +462,7 @@ i {
   }
 
   .sec1_content a {
-    padding: 10px 0px;
+    padding: 10px 0;
     border: none;
     background-color: transparent;
     border-bottom: 2px solid rgba(170, 24, 24, 0.685);

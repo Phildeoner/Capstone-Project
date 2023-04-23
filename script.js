@@ -23,4 +23,4 @@ function toggleMenu() {
   }
 }
 
-menuBtn.addEventListener("click", toggleMenu)
+menuBtn.addEventListener('click', toggleMenu);
