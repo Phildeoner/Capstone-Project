@@ -503,6 +503,13 @@ i {
         height: 200px;
         display: flex;
         flex-direction: column;
+        margin: 5px;
+        align-items: center;
+        justify-content: flex-end;
+        box-shadow: 0 0 10px silver;
+        transition: 300ms all;
+        background-size: cover;
+        background-color: aquamarine;
 }
 
 
