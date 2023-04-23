@@ -34,6 +34,15 @@ menuBtn.addEventListener('click', toggleMenu);
 let languages =["css","js","python","ruby","html","node js","typescript","c++"];
 let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Winnie","Zizoh","Daniel"];
 let dynamic = document.querySelector(".grid-container");
-
+for (let i = 0; i < names.length; i++) {
+  dynamic.innerHTML = `<div class="boxes">
+  <div class="box-content">
+      <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, incidunt.
+      </h2>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <a href="#">ReadMore</a>
+  </div>
+</div>`
+}
 
 
