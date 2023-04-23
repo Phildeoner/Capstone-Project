@@ -520,6 +520,10 @@ i {
 .boxes:hover{
   transform: scale(1.1);
 }
+.boxes:hover .box-content {
+  background-color: transparent;
+  color: white;
+}
 
 
 
