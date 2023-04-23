@@ -497,4 +497,12 @@ i {
   background-color: black;
 }
 
+.boxes{
+        border: 5px solid white;
+        width: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+}
+
 
