@@ -16,6 +16,35 @@
     color: #fff;
   }
 
+  .header_top {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .marq {
+    width: 70vw;
+    background-color: rgba(165, 42, 42, 0.61);
+  }
+
+  .socials {
+    background-color: rgba(165, 126, 74, 0.575);
+    width: 30vw;
+    padding: 8px;
+    display: flex;
+    justify-content: end;
+  }
+
+  a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  
+  .socials a {
+    text-align: center;
+    margin-right: 20px;
+    transition: all 0.5s ease-in-out;
+    font-weight: bold;
+  }
   
   
 
