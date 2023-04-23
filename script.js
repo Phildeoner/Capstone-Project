@@ -5,9 +5,6 @@ const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 
-let item = document.createElement("div");
-let column = document.createElement("div"); 
-let row = document.createElement("div");
 
 
 function toggleMenu() {
@@ -34,7 +31,5 @@ menuBtn.addEventListener('click', toggleMenu);
 
 // resource persons section
 
-let columns = 2;
-let rows = 4;
 
 

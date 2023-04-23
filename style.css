@@ -484,3 +484,47 @@ i {
     border-bottom: 2px solid rgba(170, 24, 24, 0.685);
   }
 }
+
+/* resource persons styling */
+
+.grid-container{
+  width: 600px;
+  margin: auto 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  
+}
+.boxes{
+  border: 5px solid white;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  align-items: center;
+  justify-content: flex-end;
+  box-shadow: 0 0 10px silver;
+  transition: 300ms all;
+  background-size: cover;
+  background-color: aquamarine;
+}
+
+.box-content{
+  background-color: antiquewhite;
+  padding: 10px 5px;
+  width: 100%;
+  transition: 300ms all;
+}
+
+.boxes:hover{
+  transform: scale(1.1);
+}
+.boxes:hover .box-content {
+  background-color: transparent;
+  color: white;
+}
+
+
