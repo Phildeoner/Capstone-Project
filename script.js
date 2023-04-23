@@ -9,6 +9,18 @@ const hour = document.querySelector(".hour");
 const minute = document.querySelector(".minute");
 const second = document.querySelector(".second")
 
+const updateTime = () => {
+  const currentTime = new Date();
+
+  let currentHour = currentTime.getHours();
+  let currentMinute = currentTime.getMinutes();
+  let currentSecond = currentTime.getSeconds()
+
+
+
+
+}
+
 
 
 
