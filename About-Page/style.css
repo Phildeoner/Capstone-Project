@@ -45,6 +45,62 @@
     transition: all 0.5s ease-in-out;
     font-weight: bold;
   }
+
+  .socials a:hover {
+    color: rgb(235, 65, 65);
+  }  
+
+  .header_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }  
+
+  .logo a,
+span:hover {
+  color: white;
+}
+
+.logo span {
+  font-size: 12px;
+  color: rgb(170, 24, 24);
+  transition: all 0.5s ease-in-out;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo a:hover {
+  color: white;
+}
+
+.logo {
+  background-color: white;
+  color: #333;
+  text-align: center;
+  border-radius: 50px;
+  border: 2px solid rgb(170, 24, 24);
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.logo:hover {
+  background-color: rgba(170, 24, 24, 0.637);
+  border: 2px solid white;
+}
+
+.logo h2 {
+  line-height: 0.5;
+  font-size: 20px;
+}
+
   
   
 
