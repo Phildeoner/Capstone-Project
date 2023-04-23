@@ -36,6 +36,7 @@ let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Winnie","Zizoh","Dani
 
 let dynamic = document.querySelector(".grid-container");
 for (let i = 0; i < languages.length; i++) {
+  let fetch = document.querySelector(".grid-container").innerHTML;
   // very important to note these are backticks not single quotation below;
   dynamic.innerHTML = `<div class="boxes">
   <div class="box-content">
@@ -45,6 +46,6 @@ for (let i = 0; i < languages.length; i++) {
   </p>
   <a href="#">ReadMore</a>
   </div>
-</div>` ;
+</div>` + fetch;
 
 }
