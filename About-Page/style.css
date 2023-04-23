@@ -145,6 +145,16 @@ nav{
 
 .nav .menu-nav .menu-nav_item a:hover:after{
   width: 100%;
-}  
+}
+
+.main_body{
+  height: 700px;
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  color: #15f30d;
+  background-color: #745a5850;
+  font-weight: bold;
+}
 
   
