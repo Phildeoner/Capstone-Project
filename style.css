@@ -522,8 +522,10 @@ i {
         background-color: aquamarine;
 }
 .box-content{
-  background-color: antiquewhite;
-  padding: 10px 5px;
+  font-style: italic;
+  background-color: black;
+  height: 70px;
+  padding: 8px 5px;
   width: 100%;
   transition: 300ms all;
 }
