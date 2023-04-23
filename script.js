@@ -6,6 +6,7 @@ const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 //  clock querySelector
 const hour = document.querySelector(".hour");
+const minute = document.querySelector(".minute");
 
 
 
