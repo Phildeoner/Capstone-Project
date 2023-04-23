@@ -33,6 +33,7 @@ menuBtn.addEventListener('click', toggleMenu);
 
 let languages =["css","js","python","ruby","html","node js","typescript","c++"];
 let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Winnie","Zizoh","Daniel"];
+let dynamic = document.querySelector(".grid-container");
 
 
 
