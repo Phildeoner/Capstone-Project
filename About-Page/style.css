@@ -152,9 +152,14 @@ nav{
   width: 600px;
   text-align: center;
   margin: auto;
-  color: #15f30d;
-  background-color: #745a5850;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.281);
   font-weight: bold;
 }
 
+.contact_us{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.315);
+  color: black;
+}
   
