@@ -23,9 +23,9 @@ hour.textContent = currentHour.toString();
 minute.textContent = currentMinute.toString().padStart(2,"0");
 second.textContent = currentSecond.toString()
 
-
 }
-
+setInterval(updateTime, 1000);
+updateTime();
 
 
 
