@@ -511,5 +511,12 @@ i {
         background-size: cover;
         background-color: aquamarine;
 }
+.box-content{
+  background-color: antiquewhite;
+  padding: 10px 5px;
+  width: 100%;
+  transition: 300ms all;
+}
+
 
 
