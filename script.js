@@ -4,6 +4,9 @@ const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
+//  clock querySelector
+const hour = document.querySelector(".hour");
+
 
 
 
