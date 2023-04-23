@@ -517,6 +517,9 @@ i {
   width: 100%;
   transition: 300ms all;
 }
+.boxes:hover{
+  transform: scale(1.1);
+}
 
 
 
