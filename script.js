@@ -24,3 +24,7 @@ function toggleMenu() {
 }
 
 menuBtn.addEventListener('click', toggleMenu);
+
+
+
+// resource persons section
