@@ -52,7 +52,7 @@ const languages = ['css', 'js', 'python', 'ruby', 'html', 'node js', 'typescript
 const names = ['Isaac', 'Nathaniel', 'Akoke', 'Bakueng', 'Bobai', 'Akutsang', 'Zizoh', 'Daniel'];
 
 const dynamic = document.querySelector('.grid-container');
-for (let i = 0; i < languages.length; i++) {
+for (let i = 0; i < languages.length; i += 1) {
   const fetch = document.querySelector('.grid-container').innerHTML;
   // very important to note these are backticks not single quotation below;
   dynamic.innerHTML = `<div id="cards${i}" class="boxes">
