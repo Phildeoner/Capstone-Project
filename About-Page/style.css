@@ -172,13 +172,13 @@ nav{
   font-weight: bold;
   text-align: center;
   height: 250px;
-  /* background-image: url("../capstone-assets/pexels-edit2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+}
+
+.bottom_top-logo h2{
+  margin-bottom: 20px;
 }
 
 .body_divs{
@@ -216,9 +216,8 @@ span:hover {
   border-radius: 50px;
   border: 2px solid #ec5242;
   padding: 10px;
-  top: 10px;
   transition: all 0.5s ease-in-out;
-  margin-left: 100px;
+  top: 50px;
 }
 
 .bottom-logo:hover {
@@ -234,4 +233,5 @@ span:hover {
 .odin-logo{
  display: flex;
  justify-content: center;
+ margin-top: 0;
 }
