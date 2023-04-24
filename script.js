@@ -5,29 +5,26 @@ const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 //  clock querySelector
-const hour = document.querySelector(".hour");
-const minute = document.querySelector(".minute");
-const second = document.querySelector(".second")
+const hour = document.querySelector('.hour');
+const minute = document.querySelector('.minute');
+const second = document.querySelector('.second');
 
 const updateTime = () => {
   const currentTime = new Date();
 
   let currentHour = currentTime.getHours();
-  let currentMinute = currentTime.getMinutes();
-  let currentSecond = currentTime.getSeconds();
+  const currentMinute = currentTime.getMinutes();
+  const currentSecond = currentTime.getSeconds();
 
-if (currentHour > 12) {
-  currentHour -= 12
-}
-hour.textContent = currentHour.toString();
-minute.textContent = currentMinute.toString().padStart(2,"0");
-second.textContent = currentSecond.toString()
-
-}
+  if (currentHour > 12) {
+    currentHour -= 12;
+  }
+  hour.textContent = currentHour.toString();
+  minute.textContent = currentMinute.toString().padStart(2, '0');
+  second.textContent = currentSecond.toString();
+};
 setInterval(updateTime, 1000);
 updateTime();
-
-
 
 function toggleMenu() {
   if (!showMenu) {
@@ -49,16 +46,14 @@ function toggleMenu() {
 
 menuBtn.addEventListener('click', toggleMenu);
 
-
-
 // resource persons section
 
-let languages =["css","js","python","ruby","html","node js","typescript","c++"];
-let names =["Isaac","Nathaniel","Akoke","Bakueng","Bobai","Akutsang","Zizoh","Daniel"];
+const languages = ['css', 'js', 'python', 'ruby', 'html', 'node js', 'typescript', 'c++'];
+const names = ['Isaac', 'Nathaniel', 'Akoke', 'Bakueng', 'Bobai', 'Akutsang', 'Zizoh', 'Daniel'];
 
-let dynamic = document.querySelector(".grid-container");
+const dynamic = document.querySelector('.grid-container');
 for (let i = 0; i < languages.length; i++) {
-  let fetch = document.querySelector(".grid-container").innerHTML;
+  const fetch = document.querySelector('.grid-container').innerHTML;
   // very important to note these are backticks not single quotation below;
   dynamic.innerHTML = `<div id="cards${i}" class="boxes">
   <div class="box-content">
@@ -68,8 +63,7 @@ for (let i = 0; i < languages.length; i++) {
   </p>
   <a href="#">ReadMore</a>
   </div>
-</div>` + fetch;
-let bgimg = document.getElementById(`cards${i}`);
-bgimg.style.backgroundImage = `url(/capstone-assets/${names[i]}.jpeg)`
-
+</div>${fetch}`;
+  const bgimg = document.getElementById(`cards${i}`);
+  bgimg.style.backgroundImage = `url(/capstone-assets/${names[i]}.jpeg)`;
 }
