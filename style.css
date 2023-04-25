@@ -541,11 +541,13 @@ i {
   .cards {
     flex-wrap: nowrap;
     max-width: 80vw;
+    align-items: stretch;
   }
 
   .card {
     flex-direction: column;
     text-align: center;
+    flex: 1;
   }
 
   .card_icons {
