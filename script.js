@@ -49,7 +49,7 @@ menuBtn.addEventListener('click', toggleMenu);
 // resource persons section
 
 const languages = ['css', 'js', 'python', 'ruby', 'html', 'node js', 'typescript', 'c++'];
-const names = ['Isaac', 'Nathaniel', 'Akoke', 'Bakueng', 'Bobai', 'Akutsang', 'Zizoh', 'Daniel'];
+const names = ['Isaac', 'Nathaniel', 'Akoke', 'Bakeung', 'Bobai', 'Akutsang', 'Zizoh', 'Daniel'];
 
 const dynamic = document.querySelector('.grid-container');
 for (let i = 0; i < languages.length; i += 1) {
@@ -67,3 +67,10 @@ for (let i = 0; i < languages.length; i += 1) {
   const bgimg = document.getElementById(`cards${i}`);
   bgimg.style.backgroundImage = `url(/capstone-assets/${names[i]}.jpeg)`;
 }
+
+const toggleBtn = document.querySelector('.toggle-btn');
+const footerLinks = document.querySelector('.footer-links');
+
+toggleBtn.addEventListener('click', () => {
+  footerLinks.classList.toggle('show');
+});
