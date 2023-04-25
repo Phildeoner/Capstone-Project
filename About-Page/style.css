@@ -148,13 +148,17 @@ nav{
   width: 100%;
 }
 
+.sec1{
+  display: flex;
+  flex-direction: column;
+}
 .main_body{
   height: 700px;
   width: 600px;
   text-align: center;
   margin: auto;
   color: black;
-  background-color: rgba(255, 255, 255, 0.281);
+  background-color: rgba(255, 255, 255, 0.582);
   font-weight: bold;
   padding: 2px;
 }
@@ -262,7 +266,7 @@ span:hover {
   margin-bottom: 30px;
 }
 
-.box {
+.box1 {
   float: left;
   width: 300px;
   height: 150px;
@@ -270,7 +274,25 @@ span:hover {
   margin-top: 10px;
   padding: 5px;
   border: 2px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #ec5242;
+  background-image: url(./about-assets/top\ 2021.jpg);
 }
+
+.box2 {
+  float: left;
+  width: 300px;
+  height: 150px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./about-assets/top\ 2022.jpg);
+}
+
 
 .sec4{
   display: flex;
