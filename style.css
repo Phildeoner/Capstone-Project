@@ -422,6 +422,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  height: 20vh;
 }
 
 .footer-links ul {
@@ -442,8 +443,6 @@ footer {
   cursor: pointer;
   display: none;
 }
-
-/* resource persons styling */
 
 .grid-container {
   margin: auto 20px;
