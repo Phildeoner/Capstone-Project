@@ -74,6 +74,11 @@ span:hover {
   transition: all 0.5s ease-in-out;
 }
 
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .socials a:hover {
   color: rgb(235, 65, 65);
 }
@@ -418,6 +423,7 @@ footer {
   align-items: center;
   flex-wrap: wrap;
 }
+
 .footer-links ul {
   list-style: none;
   display: flex;
@@ -425,11 +431,6 @@ footer {
 
 .footer-links li {
   margin-left: 1rem;
-}
-
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
 }
 
 .toggle-btn {
@@ -625,6 +626,7 @@ footer {
     bottom: 6px;
   }
 }
+
 @media screen and (max-width: 600px) {
   header {
     flex-direction: column;
