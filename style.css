@@ -632,43 +632,43 @@ footer {
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   nav {
     margin-top: 1rem;
   }
-  
+
   nav ul {
     flex-direction: column;
   }
-  
+
   nav li {
     margin: 0.5rem 0;
   }
-  
+
   .toggle-btn {
     display: block;
     margin-top: 1rem;
   }
-  
+
   .footer-links {
     margin: 1rem 0 0;
     width: 100%;
     display: none;
   }
-  
+
   .footer-links ul {
     flex-direction: column;
   }
-  
+
   .footer-links li {
     margin: 0.5rem 0;
   }
-  
+
   .footer-links a {
     color: #fff;
     text-decoration: none;
   }
-  
+
   .footer-links.show {
     display: block;
   }
