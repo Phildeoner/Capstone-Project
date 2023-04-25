@@ -48,7 +48,6 @@ function toggleMenu() {
 menuBtn.addEventListener('click', toggleMenu);
 
 // resource persons section
-
 const roles = ['Frontend Developer', 'Frontend Developer', 'Backend Developer', 'Frontend Developer', 'Frontend Developer', 'Fullstack Developer', 'Android Developer', 'Fullstack Developer'];
 const names = ['Isaac', 'Nathaniel', 'Akoke', 'Bakueng', 'Bobai', 'Akutsang', 'Zizoh', 'Daniel'];
 const links = ['https://github.com/Kadunapikin', 'https://github.com/Bazzy09', 'https://github.com/antoHero', 'https://github.com/BlaizDickson', 'https://github.com/Phildeoner', 'https://github.com/akuutsang', 'https://github.com/zizoh', 'https://github.com/DanSam5K'];
@@ -69,3 +68,10 @@ for (let i = 0; i < roles.length; i += 1) {
   const bgimg = document.getElementById(`cards${i}`);
   bgimg.style.backgroundImage = `url(/capstone-assets/${names[i]}.jpeg)`;
 }
+
+const toggleBtn = document.querySelector('.toggle-btn');
+const footerLinks = document.querySelector('.footer-links');
+
+toggleBtn.addEventListener('click', () => {
+  footerLinks.classList.toggle('show');
+});
