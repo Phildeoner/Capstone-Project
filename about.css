@@ -98,7 +98,6 @@ span:hover {
   padding: 15px;
 }
 
-
 .body_divs {
   display: flex;
   flex-direction: column;
@@ -112,7 +111,6 @@ span:hover {
 
 .bottom-logo {
   background-color: rgba(165, 42, 42, 0.74);
-  color: #272a31;
   text-align: center;
   border-radius: 50px;
   border: 2px solid #ec5242;
@@ -288,6 +286,10 @@ header {
   transition: all 0.5s ease-in-out;
 }
 
+.logo h2:hover {
+  color: white;
+}
+
 .logo span {
   font-size: 12px;
   color: rgb(170, 24, 24);
@@ -297,10 +299,6 @@ header {
 .main {
   background-color: #1d1c1ca6;
   height: 100vh;
-}
-
-.logo:hover {
-  color: white;
 }
 
 .menu-btn {
