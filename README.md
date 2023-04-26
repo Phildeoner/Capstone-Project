@@ -7,6 +7,7 @@ and JavaScript.
 The section "Featured speakers" is created dynamically in JavaScript.
  With the data about the speakers and not created with HTML.
  ## Learning objectives
+ - To work collaboratively
 - To illustrate your ability to use medium-fidelity wireframes to create a UI.
 - To follow written requirements (e.g. user stories).
 - To illustrate your ability to use semantic HTML tags.
