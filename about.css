@@ -98,9 +98,6 @@ span:hover {
   padding: 15px;
 }
 
-.bottom_top-logo h2 {
-  margin-bottom: 20px;
-}
 
 .body_divs {
   display: flex;
@@ -110,18 +107,19 @@ span:hover {
 
 .bottom-logo span {
   font-size: 12px;
-  color: #ec5242;
   transition: all 0.5s ease-in-out;
 }
 
 .bottom-logo {
-  background-color: white;
+  background-color: rgba(165, 42, 42, 0.74);
   color: #272a31;
   text-align: center;
   border-radius: 50px;
   border: 2px solid #ec5242;
-  padding: 10px;
   transition: all 0.5s ease-in-out;
+  padding: 10px;
+  color: #ec5242;
+  margin-top: 20px;
 }
 
 .bottom-logo:hover {
@@ -135,9 +133,9 @@ span:hover {
 }
 
 .odin-logo {
-  display: flex;
-  justify-content: center;
-  margin-top: 0;
+  width: fit-content;
+  position: relative;
+  margin: auto;
 }
 
 .sec3 {
@@ -166,19 +164,23 @@ span:hover {
   height: 150px;
   margin-left: 10px;
   margin-top: 10px;
-  padding: 5px;
   border: 2px solid black;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #ec5242;
   background-image: url(./about-assets/top\ 2021.jpg);
   color: white;
+  position: relative;
 }
 
 .box1 div,
 .box2 div {
-  background-color: rgba(165, 42, 42, 0.493);
-  height: 22vh;
+  background-color: rgba(165, 42, 42, 0.527);
+  height: 100%;
+}
+
+.box1 h3,
+.box2 h3 {
+  padding-top: 40px;
 }
 
 .box2 {
@@ -187,7 +189,6 @@ span:hover {
   height: 150px;
   margin-left: 10px;
   margin-top: 10px;
-  padding: 5px;
   border: 2px solid black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -283,6 +284,8 @@ header {
 .logo h2 {
   line-height: 0.5;
   font-size: 20px;
+  color: rgb(170, 24, 24);
+  transition: all 0.5s ease-in-out;
 }
 
 .logo span {
@@ -296,7 +299,7 @@ header {
   height: 100vh;
 }
 
-.logo a:hover {
+.logo:hover {
   color: white;
 }
 
