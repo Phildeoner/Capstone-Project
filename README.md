@@ -28,4 +28,15 @@ The section "Featured speakers" is created dynamically in JavaScript.
 This work is expected to be collaborative, with 5 contributors, each working on designated parts of the project.
 ## Accesibility;
  This project is available and can be viewed with any browser, both on mobile view and desktop view.
+ ## Project supervisors;
+ 1) [Zizoh Anto](https://github.com/zizoh)
+ 2) [Daniel Samuel](https://github.com/DanSam5K)
+ 3) [Anto Akoke Victor](https://github.com/antoHero)
+ ## Collaborators;
+ 1) [Yakubu Bobai Ephraim](https://github.com/Phildeoner)
+ 2) [Akutsang Kaze](https://github.com/akuutsang)
+ 3) [Dickson Bakueng](https://github.com/BlaizDickson)
+ 4)[Bakoshi Isaac Emmanuel](https://github.com/Kadunapikin)
+ 5) [Joshua Nathaniel](https://github.com/Bazzy09)
+
 
