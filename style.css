@@ -476,7 +476,6 @@ footer {
   border-radius: 20px 0;
 }
 
-
 .info {
   font-style: italic;
   background-color: rgba(0, 0, 0, 0.829);
@@ -487,7 +486,6 @@ footer {
   border-radius: 0 0 20px 0;
   position: relative;
 }
-
 
 .boxes:hover {
   transform: scale(1.05);
