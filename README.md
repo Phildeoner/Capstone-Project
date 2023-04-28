@@ -64,7 +64,7 @@ This work is expected to be collaborative, with 5 contributors, each working on 
  1) [Yakubu Bobai Ephraim](https://github.com/Phildeoner)
  2) [Akutsang Kaze](https://github.com/akuutsang)
  3) [Dickson Bakueng](https://github.com/BlaizDickson)
- 4)[Bakoshi Isaac Emmanuel](https://github.com/Kadunapikin)
+ 4) [Bakoshi Isaac Emmanuel](https://github.com/Kadunapikin)
  5) [Joshua Nathaniel](https://github.com/Bazzy09)
 
 
