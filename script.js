@@ -47,56 +47,61 @@ function toggleMenu() {
 menuBtn.addEventListener('click', toggleMenu);
 
 const data = [
-  { name: "Daniel Samuel",
-    role: "fullstack Developer",
-    link: "https://github.com/DanSam5K",
-    image: "/capstone-assets/Daniel.jpeg"
+  {
+    name: 'Daniel Samuel',
+    role: 'fullstack Developer',
+    link: 'https://github.com/DanSam5K',
+    image: 'capstone-assets/Daniel.jpeg',
   },
-  { name: "Zizoh Anto",
-    role: "Andriod Developer",
-    link: "https://github.com/zizoh",
-    image: "/capstone-assets/Zizoh.jpeg"
+  {
+    name: 'Zizoh Anto',
+    role: 'Andriod Developer',
+    link: 'https://github.com/zizoh',
+    image: 'capstone-assets/Zizoh.jpeg',
   },
-  { name: "Anto Victor Akoke",
-    role: "Fullstack Developer",
-    link: "https://github.com/antoHero",
-    image: "/capstone-assets/Akoke.jpeg"
+  {
+    name: 'Anto Victor Akoke',
+    role: 'Fullstack Developer',
+    link: 'https://github.com/antoHero',
+    image: 'capstone-assets/Akoke.jpeg',
   },
-  { name: "Bobai Yakubu",
-    role: "FrontEnd Developer",
-    link: "https://github.com/Phildeoner",
-    image: "/capstone-assets/Bobai.jpeg"
+  {
+    name: 'Bobai Yakubu',
+    role: 'FrontEnd Developer',
+    link: 'https://github.com/Phildeoner',
+    image: 'capstone-assets/Bobai.jpeg',
   },
-  { name: "Bakeung Dickson",
-    role: "FrontEnd developer",
-    link: "https://github.com/BlaizDickson",
-    image: "/capstone-assets/Bakeung.jpeg"
+  {
+    name: 'Bakeung Dickson',
+    role: 'FrontEnd developer',
+    link: 'https://github.com/BlaizDickson',
+    image: 'capstone-assets/Bakeung.jpeg',
   },
-  { name: "Isaac Bakoshi",
-    role: "FrontEnd Developer",
-    link: "https://github.com/Kadunapikin",
-    image: "/capstone-assets/Isaac.jpeg"
+  {
+    name: 'Isaac Bakoshi',
+    role: 'FrontEnd Developer',
+    link: 'https://github.com/Kadunapikin',
+    image: 'capstone-assets/Isaac.jpeg',
   },
-  { name: "Joshua Nathaniel",
-    role: "FrontEnd Developer",
-    link:"https://github.com/Bazzy09",
-    image: "/capstone-assets/Nathaniel.jpeg"
+  {
+    name: 'Joshua Nathaniel',
+    role: 'FrontEnd Developer',
+    link: 'https://github.com/Bazzy09',
+    image: 'capstone-assets/Nathaniel.jpeg',
   },
-   {name: "Akutsang Kaze",
-    role: "FrontEnd Developer",
-    link: "https://github.com/akuutsang",
-    image: "capstone-assets/Akutsang.jpeg"
-  }
+  {
+    name: 'Akutsang Kaze',
+    role: 'FrontEnd Developer',
+    link: 'https://github.com/akuutsang',
+    image: 'capstone-assets/Akutsang.jpeg',
+  },
 ];
 data.forEach((element, i) => {
+  const gridContainer = document.querySelector('.grid-container');
 
-;
-
-const gridContainer = document.querySelector(".grid-container")
-
-const box = document.createElement('div');
-box.classList = 'boxes';
-const boxItem = `
+  const box = document.createElement('div');
+  box.classList = 'boxes';
+  const boxItem = `
 <img src="${data[i].image}" alt="">
 <div class="info">
   <h2>${data[i].name}</h2>
@@ -105,10 +110,9 @@ const boxItem = `
 </div>
 `;
 
-box.innerHTML += boxItem;
-gridContainer.appendChild(box);
+  box.innerHTML += boxItem;
+  gridContainer.appendChild(box);
 });
-
 
 const toggleBtn = document.querySelector('.toggle-btn');
 const footerLinks = document.querySelector('.footer-links');
