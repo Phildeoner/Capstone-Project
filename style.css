@@ -451,6 +451,7 @@ footer {
   align-items: center;
   width: 100vw;
   padding: 50px;
+  height: 900px;
 }
 
 .boxes {
@@ -458,7 +459,7 @@ footer {
   height: 200px;
   display: flex;
   flex-direction: row;
-  border-left: 80px solid white;
+  border-left: 100px solid white;
   margin: 7px;
   align-items: center;
   justify-content: center;
@@ -468,9 +469,8 @@ footer {
 
 .boxes .img {
   position: absolute;
-  width: 200px;
-  height: 200px;
-  
+  width: 100px;
+  height: 130px;  
 }
 
 .info {
@@ -505,10 +505,8 @@ footer {
 
 .sec2 .hd {
   text-align: center;
-  padding: 10px 0;
-  width: fit-content;
-  margin: auto;
-  color: black;
+  width: 100vw;
+  color: black; 
 }
 
 @media screen and (min-width: 768px) {
