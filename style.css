@@ -470,7 +470,7 @@ footer {
 .boxes .img {
   position: absolute;
   width: 100px;
-  height: 130px;  
+  height: 130px;
 }
 
 .info {
@@ -506,7 +506,7 @@ footer {
 .sec2 .hd {
   text-align: center;
   width: 100vw;
-  color: black; 
+  color: black;
 }
 
 @media screen and (min-width: 768px) {

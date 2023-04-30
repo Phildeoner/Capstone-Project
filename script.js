@@ -97,7 +97,6 @@ const data = [
   },
 ];
 
-
 data.forEach((element, i) => {
   const gridContainer = document.querySelector('.grid-container');
   const box = document.createElement('div');
@@ -110,12 +109,10 @@ data.forEach((element, i) => {
          <h5>${data[i].name}</h5>
          <h6>${data[i].role}</h6>
          <a href="${data[i].link}">Readmore</a>
-        </div>`
+        </div>`;
   box.innerHTML += boxItem;
-  gridContainer.appendChild(box)
-
+  gridContainer.appendChild(box);
 });
-
 
 const toggleBtn = document.querySelector('.toggle-btn');
 const footerLinks = document.querySelector('.footer-links');
