@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,16 +8,18 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-image: url(./capstone-assets/pexels-edit2.jpg);
+}
+
+.body_content {
+  background-image: linear-gradient(#ffffffd8, rgba(255, 255, 255, 0.418)), url(./capstone-assets/christopher-gower-m_HRfLhgABo-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  color: #fff;
+  color: #d3d3d3;
 }
 
 header {
-  color: #fff;
   position: relative;
 }
 
@@ -23,33 +27,23 @@ header {
   display: none;
 }
 
-.marq {
-  width: 70vw;
-  background-color: rgba(165, 42, 42, 0.61);
-}
-
 .socials {
-  background-color: rgba(165, 126, 74, 0.575);
-  width: 30vw;
-  padding: 8px;
+  background-color: #272a31;
+  width: 100vw;
+  padding: 4px 8px;
   display: flex;
   justify-content: end;
 }
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: #d3d3d3;
 }
 
 .socials a {
   text-align: center;
   margin-right: 20px;
   transition: all 0.5s ease-in-out;
-}
-
-.logo a,
-span:hover {
-  color: white;
 }
 
 .logo a {
@@ -62,7 +56,7 @@ span:hover {
 .sec1_content a {
   margin-top: 30px;
   padding: 10px;
-  border: 1px solid white;
+  border: 1px solid #d3d3d3;
   transition: all 0.5s ease-in-out;
   background-color: rgba(170, 24, 24, 0.329);
 }
@@ -75,12 +69,12 @@ span:hover {
 }
 
 .footer-links a {
-  color: #fff;
+  color: #d3d3d3;
   text-decoration: none;
 }
 
 .socials a:hover {
-  color: rgb(235, 65, 65);
+  color: #ec5242;
 }
 
 .header_content {
@@ -88,14 +82,15 @@ span:hover {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
+  color: #272a31;
 }
 
 .logo {
-  background-color: white;
-  color: #333;
+  background-color: #d3d3d3;
+  color: #272a31;
   text-align: center;
   border-radius: 50px;
-  border: 2px solid rgb(170, 24, 24);
+  border: 2px solid #ec5242;
   padding: 10px;
   position: absolute;
   top: 10px;
@@ -103,8 +98,7 @@ span:hover {
 }
 
 .logo:hover {
-  background-color: rgba(170, 24, 24, 0.637);
-  border: 2px solid white;
+  border-color: #272a31;
 }
 
 .clock {
@@ -117,21 +111,13 @@ span:hover {
 .logo h2 {
   line-height: 0.5;
   font-size: 20px;
+  color: #272a31;
 }
 
 .logo span {
   font-size: 12px;
-  color: rgb(170, 24, 24);
+  color: #ec5242;
   transition: all 0.5s ease-in-out;
-}
-
-.main {
-  background-color: #1d1c1ca6;
-  height: 100vh;
-}
-
-.logo a:hover {
-  color: white;
 }
 
 .menu-btn {
@@ -151,7 +137,7 @@ span:hover {
   top: 0.5rem;
   width: 28px;
   height: 3px;
-  background: #fff;
+  background: #272a31;
   transition: all 0.5s ease-in-out;
   margin-right: 10px;
 }
@@ -163,7 +149,7 @@ span:hover {
   left: 0.4px;
   width: 28px;
   height: 3px;
-  background: #fff;
+  background: #272a31;
   transition: all 0.5s ease-in-out;
 }
 
@@ -174,7 +160,7 @@ span:hover {
   left: 0.4px;
   width: 28px;
   height: 3px;
-  background: #fff;
+  background: #272a31;
   transition: all 0.5s ease-in-out;
 }
 
@@ -214,7 +200,7 @@ span:hover {
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
   position: relative;
-  background-color: #3333337e;
+  background-color: #ffffff5b;
   border-radius: 20px;
 }
 
@@ -247,56 +233,54 @@ span:hover {
   transition-delay: 0.55s;
 }
 
-.nav .menu-nav_link {
+.menu-nav_link {
   display: inline-block;
   font-size: 1rem;
   text-transform: uppercase;
-  padding: 3px 6px;
+  padding: 3px 0;
   font-weight: 400;
   transition: all 0.5s ease-in-out;
+  color: #272a31;
 }
 
 .nav .menu-nav_link:hover {
-  color: rgb(235, 65, 65);
+  color: #ec5242;
 }
 
 .main_body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: center;
-  text-align: center;
+  margin-left: 12px;
 }
 
 .topic {
-  color: white;
-  text-shadow: 1px 2px 2px black;
+  color: #df4c3c;
 }
 
 .main_body h1 {
   font-size: 40px;
-  font-weight: 1000;
   line-height: 1;
-  max-width: 700px;
-  color: rgb(170, 24, 24);
-  text-shadow: 2px 2px 2px black;
-}
-
-.main_body span {
-  font-size: 30px;
-  color: black;
-  text-shadow: 1px 1px 2px white;
-  font-weight: 1000;
+  max-width: 800px;
+  background-image: url(./capstone-assets/R.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .text {
   max-width: 300px;
   margin-top: 20px;
-  background-color: rgba(240, 248, 255, 0.212);
+  background-color: #d3d3d360;
   padding: 5px;
-  border: 2px solid rgb(143, 151, 156);
+  border: 2px solid #272a3183;
   border-radius: 10px;
   font-size: 15px;
+  color: black;
+  font-weight: 1000;
 }
 
 .end-info {
@@ -304,21 +288,23 @@ span:hover {
   align-items: center;
   justify-content: center;
   margin-top: 35px;
-  margin-left: 10px;
 }
 
 .end-info p {
   margin-right: 10px;
-  background-color: #33333354;
+  background-color: #ec5342b4;
   padding: 5px;
   border-radius: 10px;
+  font-weight: 800;
+  color: aliceblue;
+  text-shadow: #272a31 1px 1px 1px;
 }
 
 button {
-  background-color: #33333354;
+  background-color: #272a31d7;
   margin-top: 50px;
   padding: 10px 30px;
-  border: 1px solid rgb(170, 24, 24);
+  border: 1px solid #ec5242;
   border-radius: 20px;
   font-size: 18px;
   transition: all 0.5s ease-in-out;
@@ -326,8 +312,8 @@ button {
 }
 
 button:hover {
-  background-color: rgba(170, 24, 24, 0.685);
-  border: 1px solid white;
+  background-color: #ec5342e1;
+  border: 1px solid #d3d3d3;
 }
 
 i {
@@ -341,7 +327,7 @@ i {
 }
 
 .sec1_content {
-  background-color: #000000f5;
+  background-color: #272a31f5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -351,12 +337,13 @@ i {
 .sec1_content h2 {
   margin-bottom: 30px;
   padding: 7px 0;
-  border-bottom: 2px solid rgba(170, 24, 24, 0.685);
+  border-bottom: 2px solid #ec5242;
+  color: #d3d3d3;
 }
 
 .sec1_content a:hover {
-  background-color: rgba(170, 24, 24, 0.685);
-  border: 1px solid red;
+  background-color: #ec5242;
+  border: 1px solid #ec5242;
 }
 
 .cards {
@@ -367,13 +354,14 @@ i {
 }
 
 .card {
-  background-color: rgba(72, 75, 78, 0.212);
+  background-color: rgba(115, 116, 117, 0.212);
   margin: 5px;
   display: flex;
   align-items: center;
   padding: 10px;
   max-width: 500px;
   transition: all 0.5s ease-in-out;
+  color: #d3d3d3;
 }
 
 .card_icons {
@@ -392,7 +380,7 @@ i {
 .card h3 {
   font-size: 18px;
   font-weight: 700;
-  color: rgba(170, 24, 24, 0.884);
+  color: #ec5242;
   width: 120px;
 }
 
@@ -407,7 +395,7 @@ i {
 }
 
 .active {
-  color: rgb(165, 125, 74);
+  color: #ec5242;
 }
 
 .footer-links {
@@ -415,7 +403,7 @@ i {
 }
 
 footer {
-  background-color: #333;
+  background-color: #272a31;
   color: #fff;
   padding: 1rem;
   display: flex;
@@ -485,13 +473,18 @@ footer {
   color: #333;
 }
 
+.info h2 {
+  font-size: 20px;
+
+}
+
 .boxes:hover {
   transform: scale(1.05);
 }
 
-.boxes:hover .box-content {
+.boxes:hover .info {
   background-color: transparent;
-  color: rgb(235, 73, 15);
+  color: white;
 }
 
 .sec2 {
@@ -517,13 +510,18 @@ footer {
   }
 
   .logo {
-    position: relative;
+    margin-top: 26px;
     margin-left: 100px;
-    margin-bottom: 15px;
+  }
+
+  .logo:hover {
+    border-color: #272a31;
+    cursor: pointer;
   }
 
   header {
-    background-color: #000000cb;
+    background-color: #fffffff8;
+    height: 15vh;
   }
 
   .menu-btn {
@@ -549,6 +547,7 @@ footer {
 
   .nav .menu-nav_link {
     font-size: 1rem;
+    margin-top: 6px;
   }
 
   .main_body {
@@ -559,13 +558,9 @@ footer {
   }
 
   .main_body h1 {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: 1000;
     line-height: 1;
-  }
-
-  .main_body span {
-    font-size: 50px;
   }
 
   .text {
@@ -589,6 +584,11 @@ footer {
     flex-direction: column;
     text-align: center;
     flex: 1;
+    max-width: 180px;
+  }
+
+  .bod {
+    border: 2px solid #d3d3d3;
   }
 
   .card_icons {
@@ -599,30 +599,26 @@ footer {
 
   .card h3 {
     margin-bottom: 2px;
-    width: 50px;
+    width: 70px;
   }
 
   .sec1_content a {
     padding: 10px 0;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid rgba(170, 24, 24, 0.685);
+    border-bottom: 2px solid #ec5242;
   }
 
   .sec1_content a:hover {
-    color: rgba(170, 24, 24, 0.685);
+    color: #ec5242;
     border: none;
     border-bottom: 2px solid white;
     background-color: transparent;
-    font-size: 18px;
-  }
-
-  .bod {
-    border: white solid 2px;
+    font-size: 16.5px;
   }
 
   .active {
-    border-bottom: 2px solid rgba(170, 24, 24, 0.685);
+    border-bottom: 2px solid #ec5242;
   }
 
   .clock {
