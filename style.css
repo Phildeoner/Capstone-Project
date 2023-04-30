@@ -445,46 +445,44 @@ footer {
 }
 
 .grid-container {
-  margin: auto 20px;
-  padding-top: 20px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  background-color: black;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 50px;
 }
 
 .boxes {
-  border: 2px solid white;
   width: 250px;
   height: 200px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  border-left: 80px solid white;
   margin: 7px;
   align-items: center;
-  justify-content: flex-end;
-  box-shadow: 0 0 8px silver;
+  justify-content: center;
   transition: all 0.5s ease-in-out;
   background-size: cover;
-  background-color: black;
-  border-radius: 20px 0;
 }
 
-.boxes img {
+.boxes .img {
   position: absolute;
-  width: 250px;
+  width: 200px;
   height: 200px;
-  border-radius: 20px 0;
+  
 }
 
 .info {
+  margin: 100px;
   font-style: italic;
-  background-color: rgba(0, 0, 0, 0.829);
-  height: 70px;
-  padding: 0 10px;
-  width: 100%;
+  height: 90px;
+  width: 500px;
+  justify-content: center;
+  text-align: center;
   transition: all 0.5s ease-in-out;
-  border-radius: 0 0 20px 0;
   position: relative;
+  color: #333;
 }
 
 .boxes:hover {
@@ -497,7 +495,7 @@ footer {
 }
 
 .sec2 {
-  background-color: black;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -508,9 +506,9 @@ footer {
 .sec2 .hd {
   text-align: center;
   padding: 10px 0;
-  border-bottom: 2px solid rgb(235, 73, 15);
   width: fit-content;
   margin: auto;
+  color: black;
 }
 
 @media screen and (min-width: 768px) {
