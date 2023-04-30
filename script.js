@@ -117,25 +117,6 @@ data.forEach((element, i) => {
 });
 
 
-
-
-// data.forEach((element, i) => {
-//   const gridContainer = document.querySelector('.grid-container');
-//   const box = document.createElement('div');
-//   box.classList = 'boxes';
-//   const boxItem = `
-//   <img class= "img" src="${data[i].image}" alt="">
-//   <div class="info">
-//     <h2>${data[i].name}</h2>
-//     <p>${data[i].role}</p>
-//     <a href="${data[i].link}">Readmore</a>
-//    </div>`
-//   box.innerHTML += boxItem;
-//   gridContainer.appendChild(box)
-
-// });
-
-
 const toggleBtn = document.querySelector('.toggle-btn');
 const footerLinks = document.querySelector('.footer-links');
 
