@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
 
 body {
-  font-family: sans-serif;
   background-image: url(./capstone-assets/pexels-editted.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,6 +8,7 @@ body {
   height: 100vh;
   color: #d3d3d3;
   background-color: azure;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -19,23 +19,41 @@ header {
   display: none;
 }
 
-.socials {
+.top_left {
+  width: 60vw;
   background-color: #272a31;
-  width: 100vw;
+  height: 4.2vh;
+  transform: skew(40deg);
+}
+
+.socials {
+  background-color: #272a3160;
+  width: 40vw;
   padding: 4px 8px;
   display: flex;
   justify-content: end;
+  transform: skew(40deg);
+  height: 4.2vh;
+}
+
+.socials > * {
+  transform: skew(-40deg);
+}
+
+.socials div {
+  margin-right: 70px;
 }
 
 a {
   text-decoration: none;
-  color: #d3d3d3;
+  color: aliceblue;
 }
 
 .socials a {
   text-align: center;
   margin-right: 20px;
   transition: all 0.5s ease-in-out;
+  font-weight: 550;
 }
 
 .logo a {
