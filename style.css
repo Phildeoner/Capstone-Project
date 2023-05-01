@@ -11,7 +11,7 @@ body {
 }
 
 .body_content {
-  background-image: linear-gradient(#ffffffd8, rgba(255, 255, 255, 0.418)), url(./capstone-assets/christopher-gower-m_HRfLhgABo-unsplash.jpg);
+  background-image: linear-gradient(#fffffff6, rgba(255, 255, 255, 0.911)), url(./capstone-assets/christopher-gower-m_HRfLhgABo-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -27,23 +27,41 @@ header {
   display: none;
 }
 
-.socials {
+.top_left {
+  width: 60vw;
   background-color: #272a31;
-  width: 100vw;
+  height: 4.2vh;
+  transform: skew(40deg);
+}
+
+.socials {
+  background-color: #272a3160;
+  width: 40vw;
   padding: 4px 8px;
   display: flex;
   justify-content: end;
+  transform: skew(40deg);
+  height: 4.2vh;
+}
+
+.socials > * {
+  transform: skew(-40deg);
+}
+
+.socials div {
+  margin-right: 70px;
 }
 
 a {
   text-decoration: none;
-  color: #d3d3d3;
+  color: aliceblue;
 }
 
 .socials a {
   text-align: center;
   margin-right: 20px;
   transition: all 0.5s ease-in-out;
+  font-weight: 550;
 }
 
 .logo a {
@@ -274,35 +292,33 @@ a {
 .text {
   max-width: 300px;
   margin-top: 20px;
-  background-color: #d3d3d360;
+  background-color: #d3d3d349;
   padding: 5px;
-  border: 2px solid #272a3183;
-  border-radius: 10px;
+  border: 2px solid #fffefee7;
   font-size: 15px;
-  color: black;
-  font-weight: 1000;
+  color: #272a31;
+  font-weight: 600;
 }
 
 .end-info {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 35px;
+  margin-top: 20px;
 }
 
 .end-info p {
   margin-right: 10px;
-  background-color: #ec5342b4;
+  background-color: #d3d3d349;
   padding: 5px;
   border-radius: 10px;
   font-weight: 800;
-  color: aliceblue;
-  text-shadow: #272a31 1px 1px 1px;
+  color: #272a31;
 }
 
 button {
   background-color: #272a31d7;
-  margin-top: 50px;
+  margin-top: 30px;
   padding: 10px 30px;
   border: 1px solid #ec5242;
   border-radius: 20px;
@@ -543,12 +559,13 @@ footer {
 
   .nav .menu-nav_item {
     display: inline;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
   }
 
   .nav .menu-nav_link {
     font-size: 1rem;
     margin-top: 6px;
+    font-weight: 600;
   }
 
   .main_body {
@@ -566,7 +583,7 @@ footer {
 
   .text {
     max-width: 400px;
-    margin-top: 20px;
+    margin-top: 10px;
     padding: 8px;
     font-size: 18px;
   }
