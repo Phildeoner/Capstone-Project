@@ -78,6 +78,9 @@ a {
   background-color: #f8f5f5;
   flex-direction: column;
   height: 70vh;
+  padding: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
 }
 
 .top-tittle{
@@ -102,7 +105,8 @@ a {
   text-align: center;
   color: #272a31;
   font-weight: bold;
-  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .contact_us h3 {
@@ -118,7 +122,8 @@ a {
   justify-content: space-around;
   background-color: #fffffff8;
   height: 50vh;
-  margin: auto;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .about_logo-topic{
