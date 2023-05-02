@@ -159,7 +159,7 @@ a {
 }
 
 .bottom-logo {
-  background-color: rgba(165, 42, 42, 0.74);
+  background-color: #d3d3d3;
   text-align: center;
   border-radius: 50px;
   border: 2px solid #ec5242;
@@ -170,18 +170,36 @@ a {
 }
 
 .bottom-logo:hover {
-  background-color: #ec5242;
+  background-color: #ec5342dc;
   border: 2px solid #d3d3d3;
 }
 
 .bottom-logo h2 {
   line-height: 0.5;
   font-size: 20px;
+  color: #272a31;
+}
+
+.bottom-logo span {
+  color: #ec5242;
 }
 
 .odin-logo {
+  display: flex;
   width: fit-content;
   position: relative;
+  padding: 2rem;
+  margin: auto;
+}
+
+.sec2-logo{
+  float: left;
+  width: 350px;
+  height: 150px;
+  border: 2px solid rgba(0, 0, 0, 0.068);
+  position: relative;
+  justify-self: center;
+  align-self: center;
   margin: auto;
 }
 
@@ -195,7 +213,7 @@ a {
   background-color: #fffffff8;
   padding: 10px;
   margin-bottom: 10px;
-  border-top: solid#d3d3d3;
+  border-top: solid#d3d3d344;
   height: 60vh;
   justify-content: space-around;
 }
@@ -257,7 +275,7 @@ a {
   height: 150px;
   margin-left: 10px;
   margin-top: 10px;
-  border: 2px solid black;
+  border: 2px solid #272a31;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url(./about-assets/top\ 2022.jpg);
@@ -266,11 +284,13 @@ a {
 
 .sec4 {
   display: flex;
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: #272a31;
+  color: white;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
   padding: 10px;
+  height: 25vh;
 }
 
 .fantswam {
