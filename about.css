@@ -7,13 +7,9 @@
 }
 
 body {
-  /* background-image: url(./capstone-assets/pexels-editted.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   height: 100vh;
   color: #272a31;
-  background-color: #fffffff8;
+  background-color: #ffffff;
   font-family: 'Lato', sans-serif;
 }
 
@@ -360,7 +356,7 @@ a {
 }
 
 .main {
-  background-color: #fffffff8;
+  background-color: #ffffff;
   height: 100vh;
 }
 
@@ -477,12 +473,12 @@ a {
   transition-delay: 0.55s;
 }
 
-.nav .menu-nav_link {
+.menu-nav_link {
   display: inline-block;
   font-size: 1rem;
   text-transform: uppercase;
-  padding: 3px 6px;
-  font-weight: 400;
+  padding: 3px 0;
+  font-weight: bold;
   transition: all 0.5s ease-in-out;
   color: #272a31;
 }
