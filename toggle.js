@@ -4,7 +4,7 @@ const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
 let showMenu = false;
 
-function toggleMenu() {
+export default function toggleMenu() {
   if (!showMenu) {
     reaction.classList.add('open');
     nav.classList.add('open');
@@ -21,5 +21,3 @@ function toggleMenu() {
     showMenu = false;
   }
 }
-
-export { toggleMenu };

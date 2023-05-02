@@ -1,4 +1,5 @@
-import { toggleMenu } from './toggle.js';
+import toggleMenu from './toggle.js';
+
 const menuBtn = document.querySelector('.menu-btn');
 
 menuBtn.addEventListener('click', toggleMenu);
