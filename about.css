@@ -109,8 +109,13 @@ a {
   margin-bottom: 10px;
 }
 
+.contact_us p {
+  color: #272a31da;
+  font-size: 90%;
+}
+
 .contact_us h3 {
-  color: #272a31;
+  color: #272a31e5;
 }
 
 .sec2 {
@@ -130,9 +135,17 @@ a {
   margin: auto;
 }
 
+.about_logo-topic h2{
+  color: #272a31da;
+}
+
 .about-logo{
   margin-left: 10rem;
   margin-right: 5rem;
+}
+
+.about-logo p{
+  color: #272a31d8;
 }
 
 .body_divs {
@@ -177,11 +190,25 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: black;
+  color: #272a31;
   font-weight: bold;
-  background-color: rgba(240, 255, 255, 0.527);
+  background-color: #fffffff8;
   padding: 10px;
   margin-bottom: 10px;
+  border-top: solid#d3d3d3;
+  height: 60vh;
+  justify-content: space-around;
+}
+
+.past-bootcamps h1{
+  margin-bottom: 2rem;
+  font-size: 150%;
+  color: #272a31c5;
+}
+
+.past-bootcamps p{
+  font-size: 100%;
+  color: #272a31c5;
 }
 
 .past-images {
@@ -208,13 +235,20 @@ a {
 
 .box1 div,
 .box2 div {
-  background-color: rgba(165, 42, 42, 0.527);
+  background-color: #ec5342c5;
   height: 100%;
 }
 
 .box1 h3,
 .box2 h3 {
+  font-size: 90%;
+}
+
+.box1 h1,
+.box2 h1 {
   padding-top: 40px;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 .box2 {
