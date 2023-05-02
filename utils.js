@@ -3,7 +3,6 @@ const minute = document.querySelector('.minute');
 const second = document.querySelector('.second');
 
 const updateTime = () => {
-   
   const currentTime = new Date();
 
   let currentHour = currentTime.getHours();
@@ -15,12 +14,6 @@ const updateTime = () => {
   hour.textContent = currentHour.toString();
   minute.textContent = currentMinute.toString().padStart(2, '0');
   second.textContent = currentSecond.toString();
-
-
 };
-// export {updateTime};
 
-export { updateTime }
-
-
-
+export default { updateTime };
