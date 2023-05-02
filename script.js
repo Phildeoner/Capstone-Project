@@ -115,7 +115,7 @@ data.forEach((element, i) => {
 });
 
 const toggleBtn = document.querySelector('.toggle-btn');
-const footerLinks = document.querySelector('.footer-links');
+const footerLinks = document.querySelector('.main-footer');
 
 toggleBtn.addEventListener('click', () => {
   footerLinks.classList.toggle('show');
