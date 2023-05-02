@@ -12,8 +12,8 @@ body {
   background-repeat: no-repeat;
   background-position: center; */
   height: 100vh;
-  color: #d3d3d3;
-  background-color: rgba(240, 255, 255, 0.281);
+  color: #272a31;
+  background-color: #fffffff8;
   font-family: 'Lato', sans-serif;
 }
 
@@ -79,31 +79,30 @@ a {
   flex-direction: column;
   height: 70vh;
 }
+
 .top-tittle{
   text-align: center;
   color: #ec5242;
-  font-size: 200%;
+  font-size: 150%;
   font-weight: bold;
-  margin-top: 3rem;
+  margin: auto;
 }
 
 .main_body {
   text-align: center;
-  margin: auto;
   color: rgba(0, 0, 0, 0.527);
   background-color: #fffffff8;
   font-weight: bold;
-  padding: 10px;
   max-width: 80vw;
   max-height: 60vh;
+  margin: auto;
 }
 
 .contact_us {
   text-align: center;
   color: #272a31;
-  padding: 5px;
-  margin-bottom: 3rem;
   font-weight: bold;
+  margin: auto;
 }
 
 .contact_us h3 {
@@ -111,14 +110,24 @@ a {
 }
 
 .sec2 {
-  color: black;
+  color: #272a31;
   font-weight: bold;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  background-color: azure;
-  padding: 15px;
+  background-color: #fffffff8;
+  height: 50vh;
+  margin: auto;
+}
+
+.about_logo-topic{
+  margin: auto;
+}
+
+.about-logo{
+  margin-left: 10rem;
+  margin-right: 5rem;
 }
 
 .body_divs {
@@ -292,7 +301,7 @@ a {
 }
 
 .main {
-  background-color: #1d1c1ca6;
+  background-color: #fffffff8;
   height: 100vh;
 }
 
