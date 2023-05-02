@@ -10,7 +10,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.body_content {
+.main {
   background-image: linear-gradient(#fffffff6, rgba(255, 255, 255, 0.911)), url(./capstone-assets/christopher-gower-m_HRfLhgABo-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -25,6 +25,7 @@ header {
 
 .header_top {
   display: none;
+  overflow: hidden;
 }
 
 .top_left {
@@ -333,7 +334,7 @@ button:hover {
 }
 
 i {
-  margin-right: 7px;
+  margin-right: 3px;
 }
 
 .sec1 {
@@ -495,12 +496,12 @@ footer {
 }
 
 .boxes:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
 
 .boxes:hover .info {
   background-color: transparent;
-  color: white;
+  color: #ec5242;
 }
 
 .sec2 {
