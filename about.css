@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700;900&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-image: url(./capstone-assets/pexels-editted.jpg);
+  /* background-image: url(./capstone-assets/pexels-editted.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
   height: 100vh;
   color: #d3d3d3;
-  background-color: azure;
+  background-color: rgba(240, 255, 255, 0.281);
   font-family: 'Lato', sans-serif;
 }
 
@@ -67,41 +73,41 @@ a {
   color: white;
 }
 
+.sec1{
+  display: flex;
+  background-color: #f8f5f5;
+  flex-direction: column;
+  height: 70vh;
+}
+.top-tittle{
+  text-align: center;
+  color: #ec5242;
+  font-size: 200%;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
 .main_body {
+  text-align: center;
   margin: auto;
-  color: black;
-  background-color: rgba(255, 255, 255, 0.623);
+  color: rgba(0, 0, 0, 0.527);
+  background-color: #fffffff8;
   font-weight: bold;
   padding: 10px;
   max-width: 80vw;
   max-height: 60vh;
-  overflow: scroll;
-}
-
-.main_body h1 {
-  color: white;
-}
-
-.main_body h2 {
-  color: brown;
-  border-bottom: solid 2px white;
-  width: fit-content;
-  margin-bottom: 10px;
-}
-
-.main_body p {
-  margin-bottom: 10px;
 }
 
 .contact_us {
   text-align: center;
-  color: white;
+  color: #272a31;
   padding: 5px;
-  margin-top: 5px;
+  margin-bottom: 3rem;
+  font-weight: bold;
 }
 
 .contact_us h3 {
-  color: rgb(245, 12, 12);
+  color: #272a31;
 }
 
 .sec2 {
@@ -118,7 +124,6 @@ a {
 .body_divs {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
 }
 
 .bottom-logo span {
