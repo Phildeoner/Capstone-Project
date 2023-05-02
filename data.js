@@ -7,7 +7,7 @@ const data = [
   },
   {
     name: 'Zizoh Anto',
-    role: 'Andriod Developer',
+    role: 'Android Developer',
     link: 'https://github.com/zizoh',
     image: 'capstone-assets/Zizoh.jpeg',
   },
