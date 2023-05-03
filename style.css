@@ -455,7 +455,13 @@ footer {
   align-self: center;
   width: 100%;
   padding: 20px;
+  height: 39vh;
+  overflow: hidden;
+}
+
+.grid-container.open {
   height: 100%;
+  overflow: auto;
 }
 
 .boxes {
@@ -471,7 +477,6 @@ footer {
 }
 
 .boxes .img {
-  position: absolute;
   width: 180px;
   height: 110px;
 }
@@ -501,6 +506,13 @@ footer {
 .boxes:hover .info {
   background-color: transparent;
   color: white;
+}
+
+.grid-btn {
+  width: 120px;
+  height: 60px;
+  align-self: center;
+  font-size: medium;
 }
 
 .sec2 {
@@ -641,6 +653,10 @@ footer {
 
   .clock {
     bottom: 6px;
+  }
+
+  .grid-btn {
+    visibility: hidden;
   }
 }
 
