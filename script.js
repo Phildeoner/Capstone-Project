@@ -1,5 +1,7 @@
 import updateTime from './utils.js';
 import card from './data.js';
+import { cardDisplay, newButton } from './more.js';
 
-setInterval(updateTime, 1000);
 card();
+updateTime();
+newButton.addEventListener('click', cardDisplay);

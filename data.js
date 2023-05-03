@@ -54,9 +54,7 @@ function card() {
     const box = document.createElement('div');
     box.classList = 'boxes';
     const boxItem = `
-      <div class="boxes">
               <img class= "img" src="${data[i].image}" alt="">
-            </div>
             <div class="info">
             <h5>${data[i].name}</h5>
             <h6>${data[i].role}</h6>
@@ -66,5 +64,4 @@ function card() {
     gridContainer.appendChild(box);
   });
 }
-
-export default { card };
+export default card;
