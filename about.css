@@ -9,7 +9,7 @@
 body {
   height: 100vh;
   color: #272a31;
-  background-color: #ffffff;
+  background-color: #ffffffd3;
   font-family: 'Lato', sans-serif;
 }
 
@@ -77,12 +77,13 @@ a {
   padding: 10px;
   margin-bottom: 10px;
   justify-content: space-around;
+  align-items: center;
 }
 
 .top-tittle{
   text-align: center;
   color: #ec5242;
-  font-size: 150%;
+  font-size: 30px;
   font-weight: bold;
   margin: auto;
 }
@@ -94,7 +95,7 @@ a {
   font-weight: bold;
   max-width: 80vw;
   max-height: 60vh;
-  margin: auto;
+  padding: 15px;
 }
 
 .contact_us {
@@ -102,7 +103,7 @@ a {
   color: #272a31;
   font-weight: bold;
   padding: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 
 .contact_us p {
@@ -128,7 +129,8 @@ a {
 }
 
 .about_logo-topic{
-  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
 }
 
 .about_logo-topic h2{
@@ -138,6 +140,7 @@ a {
 .about-logo{
   margin-left: 10rem;
   margin-right: 5rem;
+  padding: 10px;
 }
 
 .about-logo p{
@@ -356,7 +359,7 @@ a {
 }
 
 .main {
-  background-color: #ffffff;
+  background-color: #ffffffc4;
   height: 100vh;
 }
 
@@ -520,7 +523,7 @@ i {
   header {
     background-color: #fffffff8;
     height: 15vh;
-  }
+  }  
 
   .menu-btn {
     visibility: hidden;
