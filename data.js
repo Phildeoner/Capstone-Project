@@ -48,6 +48,7 @@ const data = [
     image: 'capstone-assets/Akutsang.jpeg',
   },
 ];
+
 function card() {
   data.forEach((element, i) => {
     const gridContainer = document.querySelector('.grid-container');

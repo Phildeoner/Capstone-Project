@@ -438,7 +438,7 @@ footer{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 120px;
+  height: 130px;
 }
 
 .bottom-footer {
@@ -481,16 +481,8 @@ footer{
 .footer-links a {
   color: #fff;
   text-decoration: none;
-}
-
-.toggle-btn {
-  background-color: #555;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  display: none;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
 .footer-legal {
@@ -553,7 +545,6 @@ footer{
   width: 250px;
   height: 100px;
   display: flex;
-  flex-direction: row;
   margin: 7px;
   align-items: center;
   justify-content: center;
@@ -568,12 +559,12 @@ footer{
 
 .info {
   font-style: italic;
-  height: 110px;
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
   transition: all 0.5s ease-in-out;
   position: relative;
   color: #333;
@@ -585,7 +576,7 @@ footer{
 }
 
 .boxes:hover {
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 
 .boxes:hover .info {
@@ -594,10 +585,9 @@ footer{
 }
 
 .grid-btn {
-  width: 120px;
-  height: 60px;
   align-self: center;
-  font-size: medium;
+  width: fit-content;
+  margin-bottom: 0;
 }
 
 .sec2 {
@@ -605,6 +595,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .sec2 a:hover {
@@ -612,8 +603,15 @@ footer{
 }
 
 .sec2 .hd {
-  text-align: center;
-  color: black;
+  width: fit-content;
+  margin-bottom: 30px;
+  padding: 7px 0;
+  border-bottom: 2px solid #ec5242;
+  color: #272a31;
+}
+
+.spon {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -747,19 +745,13 @@ footer{
   .grid-btn {
     visibility: hidden;
   }
+
+  .spon {
+    visibility: visible;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .toggle-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 195px;
-    background-color: rgb(214, 214, 226);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 15px;
-  }
-
   .main-footer {
     display: none;
   }
@@ -781,10 +773,6 @@ footer{
   .footer-links a {
     color: #fff;
     text-decoration: none;
-  }
-
-  .footer-links.show {
-    display: block;
   }
   
   .footer-legal {
