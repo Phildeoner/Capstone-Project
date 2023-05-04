@@ -414,19 +414,59 @@ i {
   color: #ec5242;
 }
 
-.footer-links {
-  margin-right: auto;
+footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
 }
 
-footer {
-  background-color: #272a31;
+.main-footer {
+  background-color: #f2f2f2;
+}
+
+.top-footer, .bottom-footer {
+  text-align: center;
+}
+
+.top-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
+.bottom-footer {
+  margin-top: 0px;
+  background-color: rgb(226, 225, 225);
   color: #fff;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 20vh;
+  height: 120px;
+}
+
+.footer-links {
+  margin-right: auto;
+}
+.bottom-links {
+  margin-right: auto;
+}
+.bottom-links ul {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+}
+
+.first-item {
+  color: #555;
 }
 
 .footer-links ul {
@@ -438,6 +478,11 @@ footer {
   margin-left: 1rem;
 }
 
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .toggle-btn {
   background-color: #555;
   color: #fff;
@@ -446,6 +491,46 @@ footer {
   padding: 0.5rem 1rem;
   cursor: pointer;
   display: none;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0% 35%;
+}
+
+.footer-legal p {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-legal a:hover {
+  color: #0077cc;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border:4px solid #000 ;
+  border-color: #000;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  font-size: 36px;
+  color: #fff;
 }
 
 .grid-container {
@@ -667,7 +752,16 @@ footer {
 @media screen and (max-width: 600px) {
   .toggle-btn {
     display: block;
-    margin-top: 1rem;
+    margin: 0 auto;
+    padding: 10px 195px;
+    background-color: rgb(214, 214, 226);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 15px;
+  }
+
+  .main-footer {
+    display: none;
   }
 
   .footer-links {
@@ -691,5 +785,13 @@ footer {
 
   .footer-links.show {
     display: block;
+  }
+  
+  .footer-legal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 10%;
   }
 }
