@@ -2,9 +2,10 @@ const reaction = document.querySelector('.menu-btn_options');
 const nav = document.querySelector('.nav');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
+const menuBtn = document.querySelector('.menu-btn');
 let showMenu = false;
 
-export default function toggleMenu() {
+function toggleMenu() {
   if (!showMenu) {
     reaction.classList.add('open');
     nav.classList.add('open');
@@ -21,3 +22,5 @@ export default function toggleMenu() {
     showMenu = false;
   }
 }
+
+export { toggleMenu, menuBtn };

@@ -89,6 +89,13 @@ a {
 .footer-links a {
   color: #d3d3d3;
   text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: #333;
 }
 
 .socials a:hover {
@@ -414,7 +421,7 @@ i {
   color: #ec5242;
 }
 
-footer{
+footer {
   width: 100%;
   position: relative;
   bottom: 0;
@@ -425,7 +432,8 @@ footer{
   background-color: #f2f2f2;
 }
 
-.top-footer, .bottom-footer {
+.top-footer,
+.bottom-footer {
   text-align: center;
 }
 
@@ -438,11 +446,11 @@ footer{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  height: 120px;
+  height: 130px;
 }
 
 .bottom-footer {
-  margin-top: 0px;
+  margin-top: 0;
   background-color: rgb(226, 225, 225);
   color: #fff;
   padding: 1rem;
@@ -456,9 +464,11 @@ footer{
 .footer-links {
   margin-right: auto;
 }
+
 .bottom-links {
   margin-right: auto;
 }
+
 .bottom-links ul {
   list-style: none;
   display: flex;
@@ -478,21 +488,6 @@ footer{
   margin-left: 1rem;
 }
 
-.footer-links a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.toggle-btn {
-  background-color: #555;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  display: none;
-}
-
 .footer-legal {
   display: flex;
   justify-content: center;
@@ -507,19 +502,14 @@ footer{
   margin-bottom: 5px;
 }
 
-.footer-legal a {
-  text-decoration: none;
-  color: #333;
-}
-
 .footer-legal a:hover {
-  color: #0077cc;
+  color: #07c;
 }
 
 .circle {
   width: 100px;
   height: 100px;
-  border:4px solid #000 ;
+  border: 4px solid #000;
   border-color: #000;
   border-radius: 50%;
   background-color: #ccc;
@@ -553,7 +543,6 @@ footer{
   width: 250px;
   height: 100px;
   display: flex;
-  flex-direction: row;
   margin: 7px;
   align-items: center;
   justify-content: center;
@@ -568,12 +557,12 @@ footer{
 
 .info {
   font-style: italic;
-  height: 110px;
-  width: 150px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
   transition: all 0.5s ease-in-out;
   position: relative;
   color: #333;
@@ -585,7 +574,7 @@ footer{
 }
 
 .boxes:hover {
-  transform: scale(1.01);
+  transform: scale(1.04);
 }
 
 .boxes:hover .info {
@@ -594,10 +583,9 @@ footer{
 }
 
 .grid-btn {
-  width: 120px;
-  height: 60px;
   align-self: center;
-  font-size: medium;
+  width: fit-content;
+  margin-bottom: 0;
 }
 
 .sec2 {
@@ -605,6 +593,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .sec2 a:hover {
@@ -612,8 +601,15 @@ footer{
 }
 
 .sec2 .hd {
-  text-align: center;
-  color: black;
+  width: fit-content;
+  margin-bottom: 30px;
+  padding: 7px 0;
+  border-bottom: 2px solid #ec5242;
+  color: #272a31;
+}
+
+.spon {
+  visibility: hidden;
 }
 
 @media screen and (min-width: 768px) {
@@ -747,19 +743,13 @@ footer{
   .grid-btn {
     visibility: hidden;
   }
+
+  .spon {
+    visibility: visible;
+  }
 }
 
-@media screen and (max-width: 600px) {
-  .toggle-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 195px;
-    background-color: rgb(214, 214, 226);
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 15px;
-  }
-
+@media screen and (max-width: 768px) {
   .main-footer {
     display: none;
   }
@@ -783,10 +773,6 @@ footer{
     text-decoration: none;
   }
 
-  .footer-links.show {
-    display: block;
-  }
-  
   .footer-legal {
     display: flex;
     justify-content: center;
