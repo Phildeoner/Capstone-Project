@@ -18,7 +18,7 @@ const data = [
     image: 'capstone-assets/Akoke.jpeg',
   },
   {
-    name: 'Bobai Yakubu',
+    name: 'Bobai Epheaim Yakubu',
     role: 'FrontEnd Developer',
     link: 'https://github.com/Phildeoner',
     image: 'capstone-assets/Bobai.jpeg',
@@ -57,7 +57,7 @@ function card() {
     const boxItem = `
               <img class= "img" src="${data[i].image}" alt="">
             <div class="info">
-            <h5>${data[i].name}</h5>
+            <h4>${data[i].name}</h4>
             <h6>${data[i].role}</h6>
             <a href="${data[i].link}">Readmore</a>
             </div>`;
