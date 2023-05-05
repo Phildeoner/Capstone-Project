@@ -499,6 +499,109 @@ i {
   display: none;
 }
 
+footer{
+  display: none;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+}
+
+.main-footer {
+  background-color: #f2f2f2;
+}
+
+.top-footer, .bottom-footer {
+  text-align: center;
+}
+
+.top-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
+.bottom-footer {
+  margin-top: 0px;
+  background-color: rgb(226, 225, 225);
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 120px;
+}
+
+.footer-links {
+  margin-right: auto;
+}
+.bottom-links {
+  margin-right: auto;
+}
+.bottom-links ul {
+  list-style: none;
+  display: flex;
+  justify-self: center;
+}
+
+.first-item {
+  color: #555;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-links li {
+  margin-left: 1rem;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.toggle-btn {
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: none;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0% 35%;
+}
+
+.footer-legal p {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-legal a:hover {
+  color: #0077cc;
+}
+
 @media screen and (min-width: 768px) {
   .header_top {
     display: flex;
@@ -560,5 +663,57 @@ i {
 
   .sec4 {
     flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-footer {
+    display: block;
+  }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 0;
+    width: 100%;
+    display: inline;
+  }
+
+  .footer-links ul {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .top-footer h3 {
+    border-bottom: 1px solid rgb(177, 44, 44);
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .footer-links li {
+    margin: 0.5rem 0;
+  }
+
+  .footer-links a {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .footer-links.show {
+    display: block;
+  }
+  
+  .footer-legal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 0% 10%;
+  }
+
+  .sec4 {
+    display: none;
   }
 }
