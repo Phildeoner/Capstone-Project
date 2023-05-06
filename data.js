@@ -61,10 +61,9 @@ function card() {
               <h6>${data[i].role}</h6>
               <p class="dash"></p>
               <a href="${data[i].link}">Readmore</a>
-
             </div>
             `;
-            
+
     box.innerHTML += boxItem;
     gridContainer.appendChild(box);
   });
