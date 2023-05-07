@@ -55,12 +55,15 @@ function card() {
     const box = document.createElement('div');
     box.classList = 'boxes';
     const boxItem = `
-              <img class= "img" src="${data[i].image}" alt="">
+            <img class= "img" src="${data[i].image}" alt="">
             <div class="info">
-            <h4>${data[i].name}</h4>
-            <h6>${data[i].role}</h6>
-            <a href="${data[i].link}">Readmore</a>
-            </div>`;
+              <h5>${data[i].name}</h5>
+              <h6>${data[i].role}</h6>
+              <p class="dash"></p>
+              <a href="${data[i].link}">Readmore</a>
+            </div>
+            `;
+
     box.innerHTML += boxItem;
     gridContainer.appendChild(box);
   });
