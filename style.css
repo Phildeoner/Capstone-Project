@@ -76,7 +76,7 @@ a {
   padding: 10px;
   border: 1px solid #d3d3d3;
   transition: all 0.5s ease-in-out;
-  background-color: rgba(170, 24, 24, 0.329);
+  background-color: #ec5242;
 }
 
 .sec2 a {
@@ -114,7 +114,7 @@ a {
   background-color: #d3d3d3;
   color: #272a31;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 0 20px;
   border: 2px solid #ec5242;
   padding: 10px;
   position: absolute;
@@ -127,7 +127,7 @@ a {
 }
 
 .clock {
-  padding: 20px 5px;
+  padding: 5px;
   position: absolute;
   bottom: 45px;
   left: 15px;
@@ -221,7 +221,7 @@ a {
   height: 20vh;
   overflow: hidden;
   list-style-type: none;
-  padding-right: 1rem;
+  padding-right: 3vw;
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -260,12 +260,13 @@ a {
 
 .menu-nav_link {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   padding: 3px 0;
   font-weight: 400;
   transition: all 0.5s ease-in-out;
   color: #272a31;
+  margin-left: 2vw;
 }
 
 .nav .menu-nav_link:hover {
@@ -324,10 +325,10 @@ a {
 }
 
 button {
-  background-color: #272a31d7;
+  background-color: #ec5242;
   margin: 30px 0;
   padding: 10px 30px;
-  border: 1px solid #ec5242;
+  border: 1px solid #272a31d7;
   border-radius: 20px;
   font-size: 18px;
   transition: all 0.5s ease-in-out;
@@ -335,8 +336,9 @@ button {
 }
 
 button:hover {
-  background-color: #ec5342e1;
-  border: 1px solid #d3d3d3;
+  background-color: #272a31d7;
+  border: 1px solid #ec5342e1;
+  color: #d3d3d3;
 }
 
 i {
@@ -365,8 +367,8 @@ i {
 }
 
 .sec1_content a:hover {
-  background-color: #ec5242;
-  border: 1px solid #ec5242;
+  background-color: #df4c3cd5;
+  border: 1px solid #d3d3d3;
 }
 
 .cards {
@@ -523,22 +525,6 @@ footer {
   color: #fff;
 }
 
-/* .grid-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-self: center;
-  width: 100%;
-  padding: 20px;
-  height: 39vh;
-  overflow: hidden;
-} */
-
-/* .grid-container.open {
-  height: 100%;
-  overflow: auto;
-} */
-
 .boxes {
   width: 250px;
   height: 100px;
@@ -584,8 +570,7 @@ h6 {
 }
 
 .grid-btn {
-  align-self: center;
-  width: fit-content;
+  width: 60vw;
   margin-bottom: 0;
 }
 
@@ -653,6 +638,8 @@ h6 {
     height: 100%;
     background: transparent;
     text-align: right;
+    padding-right: 10vw;
+    padding-top: 5px;
   }
 
   .nav .menu-nav_item {
@@ -661,7 +648,7 @@ h6 {
   }
 
   .nav .menu-nav_link {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 6px;
     font-weight: 600;
   }
@@ -738,7 +725,7 @@ h6 {
   }
 
   .clock {
-    bottom: 6px;
+    bottom: 20px;
   }
 
   .grid-btn {

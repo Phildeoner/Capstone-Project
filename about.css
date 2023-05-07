@@ -174,7 +174,7 @@ a {
 .bottom-logo {
   background-color: #d3d3d3;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 0 20px;
   border: 2px solid #ec5242;
   transition: all 0.5s ease-in-out;
   padding: 10px;
@@ -331,7 +331,7 @@ a {
   background-color: #d3d3d3;
   color: #272a31;
   text-align: center;
-  border-radius: 50px;
+  border-radius: 0 20px;
   border: 2px solid #ec5242;
   padding: 10px;
   position: absolute;
@@ -350,7 +350,7 @@ a {
 }
 
 .clock {
-  padding: 20px 5px;
+  padding: 5px;
   position: absolute;
   bottom: 45px;
   left: 15px;
@@ -443,7 +443,7 @@ a {
   height: 20vh;
   overflow: hidden;
   list-style-type: none;
-  padding-right: 1rem;
+  padding-right: 3vw;
   transform: translateY(-100%);
   transition: all 0.5s ease-in-out;
   position: relative;
@@ -482,20 +482,17 @@ a {
 
 .menu-nav_link {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   padding: 3px 0;
-  font-weight: bold;
+  font-weight: 400;
   transition: all 0.5s ease-in-out;
   color: #272a31;
+  margin-left: 2vw;
 }
 
 .nav .menu-nav_link:hover {
   color: #ec5242;
-}
-
-i {
-  margin-right: 7px;
 }
 
 .active {
@@ -640,16 +637,19 @@ footer {
     height: 100%;
     background: transparent;
     text-align: right;
+    padding-right: 10vw;
+    padding-top: 5px;
   }
 
   .nav .menu-nav_item {
     display: inline;
-    padding-right: 1.5rem;
+    padding-right: 1rem;
   }
 
   .nav .menu-nav_link {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-top: 6px;
+    font-weight: 600;
   }
 
   .active {
@@ -657,7 +657,7 @@ footer {
   }
 
   .clock {
-    bottom: 6px;
+    bottom: 20px;
   }
 
   .past-images {
