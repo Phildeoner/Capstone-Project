@@ -104,11 +104,15 @@ a {
 
 .main_body {
   text-align: center;
-  color: rgba(0, 0, 0, 0.527);
-  background-color: #d3d1d127;
+  font-size: 13px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.541);
+  background-color: #d3d1d1a8;
   font-weight: bold;
   max-width: 80vw;
   padding: 20px;
+  border-style: ridge;
 }
 
 .contact_us {
@@ -154,6 +158,8 @@ a {
   padding: 10px;
   max-width: 70vw;
   margin-bottom: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
 }
 
 .about-logo p {
@@ -238,6 +244,7 @@ a {
   font-size: 100%;
   color: #272a31c5;
   margin-bottom: 20px;
+  letter-spacing: 0.5px;
 }
 
 .past-images {
@@ -246,6 +253,7 @@ a {
   justify-content: center;
   text-align: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .box1 {
