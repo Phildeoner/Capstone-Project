@@ -1,5 +1,5 @@
 const data = [
-  
+
   {
     name: 'Joshua Nathaniel',
     role: 'FrontEnd Developer',
@@ -47,7 +47,7 @@ const data = [
     role: 'Android Developer',
     link: 'https://github.com/zizoh',
     image: 'capstone-assets/Zizoh.jpeg',
-  }
+  },
 ];
 
 function card() {
